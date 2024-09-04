@@ -1,7 +1,12 @@
+    function teste(){
+        console.log(this);
+    }
+
     class ControleRemoto {
         constructor(tv) {
              this.tv = tv; 
              this.volume = 0;
+             teste();
         }
         //método instancia
         aumentarVolume() {
@@ -13,7 +18,7 @@
         }
 
         //Método de estatico
-        static trocaPilha() {
+        static trocaPilha() { // metodo estatico nao  tem acesso aos dados da instancia
             console.log('Ok, vou trocar.')
         }
     }
