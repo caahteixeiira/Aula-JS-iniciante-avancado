@@ -3,8 +3,11 @@
 
 let numero = [1, 2, 3, 5, 6, 7, 8, 9, 10];
 
-for (let par = 1; par <= numero.length; par++) {
-
-    console.log(numero % 2 === 0);
+for (let i = 1; i <= numero.length; i++) {
+    const numeroPar = numeros[i];
+    
+    if (numero % 2 === 0){
+        console.log(numero);
+    }
     
 }
