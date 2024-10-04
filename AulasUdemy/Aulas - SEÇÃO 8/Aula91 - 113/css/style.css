@@ -54,3 +54,8 @@ form button:hover {
 form button:active {
     background: rgb(200, 224, 228);   
 }
+
+table {
+    width: 100%;
+}
+
